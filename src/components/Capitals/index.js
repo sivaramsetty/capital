@@ -33,7 +33,7 @@ const countryAndCapitalsList = [
 class Capitals extends Component {
   state = {
     initialState: countryAndCapitalsList[0].country,
-    capital: countryAndCapitalsList[0].capitalDisplayText,
+    capital: countryAndCapitalsList[0].id,
   }
 
   handler = event => {
